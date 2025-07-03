@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 class EventManager
 {
 
@@ -13,10 +14,20 @@ class EventManager
     string Eventorganizer { get; set; }
     string Eventdate { get; set; }
 
+    public string events1()
+    {
+        EventManager eventManager = new EventManager();
+        this.eventname = "marriage";
+        eventManager.eventname = eventname;
+        return eventname;
+
+
+    }
     static void Main()
     {
         
         EventManager events=new EventManager();
+        
         Console.WriteLine($"Event name is {events.eventname}\nEvent location is {events.eventlocation}\nEvent organizer is {events.eventorganizer}\nEvent date is on {events.eventdate}");
 
         events.Eventname = "mehendi";

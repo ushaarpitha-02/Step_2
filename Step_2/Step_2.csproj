@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EventManager</StartupObject>
+    <StartupObject>MainFile.MainFile</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstandReadonly.cs" />
+    <Compile Include="Constructors.cs" />
     <Compile Include="Fieldsandinstances.cs" />
+    <Compile Include="Namespaces\Allfiles.cs" />
+    <Compile Include="Namespaces\DOCfile.cs" />
+    <Compile Include="Namespaces\EXCELfile.cs" />
+    <Compile Include="Namespaces\MainFile.cs" />
+    <Compile Include="Namespaces\PPTfile.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
