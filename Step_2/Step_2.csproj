@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BiryaniCart.Program</StartupObject>
+    <StartupObject>simplecode.Bodmas.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,8 +48,9 @@
   <ItemGroup>
     <Compile Include="ConstandReadonly.cs" />
     <Compile Include="Constructors.cs" />
-    <Compile Include="DebuggingCookingExample.cs" />
-    <Compile Include="DebuggingBiriyanicartExample.cs" />
+    <Compile Include="Debugging\DebuggingCookingExample.cs" />
+    <Compile Include="Debugging\DebuggingBiriyanicartExample.cs" />
+    <Compile Include="Debugging\Simplecode.cs" />
     <Compile Include="Fieldsandinstances.cs" />
     <Compile Include="Namespaces\Allfiles.cs" />
     <Compile Include="Namespaces\DOCfile.cs" />
