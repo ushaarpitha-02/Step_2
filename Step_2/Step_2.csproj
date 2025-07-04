@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainFile.MainFile</StartupObject>
+    <StartupObject>BiryaniCart.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="ConstandReadonly.cs" />
     <Compile Include="Constructors.cs" />
+    <Compile Include="DebuggingCookingExample.cs" />
+    <Compile Include="DebuggingBiriyanicartExample.cs" />
     <Compile Include="Fieldsandinstances.cs" />
     <Compile Include="Namespaces\Allfiles.cs" />
     <Compile Include="Namespaces\DOCfile.cs" />
@@ -56,6 +58,11 @@
     <Compile Include="Namespaces\PPTfile.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticvsNonStatic\NonStaticclass.cs" />
+    <Compile Include="StaticvsNonStatic\StaticClasses.cs" />
+    <Compile Include="StaticvsNonStatic\Instantiate.cs" />
+    <Compile Include="StaticvsNonStatic\Members.cs" />
+    <Compile Include="StaticvsNonStatic\StaticvsNonstaticClasses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
