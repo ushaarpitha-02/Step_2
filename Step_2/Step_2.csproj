@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>simplecode.Bodmas.Program</StartupObject>
+    <StartupObject>CookingExample.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

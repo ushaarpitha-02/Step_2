@@ -105,14 +105,14 @@ namespace BiryaniCart
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;//emoji display
 
             Utils.ShowWelcomeMessage();
             CartManager biryaniCart = new CartManager();
 
             // 🧂 Add Biryani Ingredients
-            biryaniCart.AddItem("Basmati Rice (1kg)", 1, 120.00);
-            biryaniCart.AddItem("Chicken (1kg)", 1, 250.00);
+            biryaniCart.AddItem("Basmati Rice (1kg)", 2, 120.00);
+            biryaniCart.AddItem("Chicken (1kg)", 2, 250.00);
             biryaniCart.AddItem("Biryani Masala", 1, 45.00);
             biryaniCart.AddItem("Curd", 1, 35.00);
             biryaniCart.AddItem("Mint Leaves", 1, 20.00);
