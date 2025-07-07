@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CookingExample.Program</StartupObject>
+    <StartupObject>School.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,11 @@
     <Compile Include="Debugging\DebuggingBiriyanicartExample.cs" />
     <Compile Include="Debugging\Simplecode.cs" />
     <Compile Include="Fieldsandinstances.cs" />
+    <Compile Include="Inheritance\ClassInheritance.cs" />
+    <Compile Include="Inheritance\Implementation.cs" />
+    <Compile Include="Inheritance\InheritanceLiveExample.cs" />
+    <Compile Include="Inheritance\Inheritancewithconstructors.cs" />
+    <Compile Include="Inheritance\InterfaceInheritance.cs" />
     <Compile Include="Namespaces\Allfiles.cs" />
     <Compile Include="Namespaces\DOCfile.cs" />
     <Compile Include="Namespaces\EXCELfile.cs" />
