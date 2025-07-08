@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>School.Program</StartupObject>
+    <StartupObject>Mall.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\AbstractClass.cs" />
+    <Compile Include="Abstraction\abstractclassescs.cs" />
     <Compile Include="ConstandReadonly.cs" />
     <Compile Include="Constructors.cs" />
     <Compile Include="Debugging\DebuggingCookingExample.cs" />
     <Compile Include="Debugging\DebuggingBiriyanicartExample.cs" />
     <Compile Include="Debugging\Simplecode.cs" />
+    <Compile Include="Demo\InterfaceInheritanceExmaple.cs" />
+    <Compile Include="Demo\Revisionofstep-2.cs" />
     <Compile Include="Fieldsandinstances.cs" />
     <Compile Include="Inheritance\ClassInheritance.cs" />
-    <Compile Include="Inheritance\Implementation.cs" />
+    <Compile Include="Inheritance\InheritanceExmaple2.cs" />
+    <Compile Include="Interface\Implementation.cs" />
     <Compile Include="Inheritance\InheritanceLiveExample.cs" />
     <Compile Include="Inheritance\Inheritancewithconstructors.cs" />
-    <Compile Include="Inheritance\InterfaceInheritance.cs" />
+    <Compile Include="Interface\InterfaceExample.cs" />
+    <Compile Include="Interface\InterfaceInheritance.cs" />
     <Compile Include="Namespaces\Allfiles.cs" />
     <Compile Include="Namespaces\DOCfile.cs" />
     <Compile Include="Namespaces\EXCELfile.cs" />

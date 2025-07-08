@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Employee
+class Employee // base class
 {
     public string Name { get; set; }
     public int EmployeeID { get; set; }
@@ -12,7 +12,7 @@ class Employee
     }
 }
 
-class Manager : Employee
+class Manager : Employee //derived class
 {
     public double Bonus { get; set; }
 
@@ -23,7 +23,7 @@ class Manager : Employee
 
     public void ShowManagerDetails()
     {
-        Console.WriteLine($"[Manager] Name: {Name}, ID: {EmployeeID}, Basic Salary: {BasicSalary}, Bonus: {Bonus}, Total: {GetTotalSalary()}");
+        Console.WriteLine($"[Manager] Name: {Name}, ID: {EmployeeID}, Basic Salary: {BasicSalary}, Bonus: {Bonus}, Total salary: {GetTotalSalary()}");
     }
 }
 
