@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Mall.Program</StartupObject>
+    <StartupObject>RunTimePolymorphism.Order</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,8 @@
     <Compile Include="Namespaces\EXCELfile.cs" />
     <Compile Include="Namespaces\MainFile.cs" />
     <Compile Include="Namespaces\PPTfile.cs" />
+    <Compile Include="Polymorphism\CompileTimePolymorphism.cs" />
+    <Compile Include="Polymorphism\RunTimePolymorphism.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticvsNonStatic\NonStaticclass.cs" />

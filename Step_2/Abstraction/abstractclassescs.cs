@@ -83,6 +83,12 @@ namespace VehicleConfigurationSystem
            // Vehicle v = new Vehicle();
 
             Console.WriteLine("Car Details");
+            Vehicle car1 = new Car()
+            {
+                FuelType = "petrol",
+                Capacity = 5
+            };
+            car1.ShowDetails();
             Vehicle car = new Car();
             car.FuelType = "Diesel";
             car.Capacity = 7;

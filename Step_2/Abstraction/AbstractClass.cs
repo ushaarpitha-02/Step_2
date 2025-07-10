@@ -103,6 +103,8 @@ namespace onlineshopping
             amazon.customersupport = "Available";
             amazon.Category = "Western for women";
             amazon.ShowShoppingDetails();
+
+
             Console.WriteLine("Welcome to Flipkart app");
             ShoppingApps flipkart=new Flipkart();
             flipkart.sigin();
