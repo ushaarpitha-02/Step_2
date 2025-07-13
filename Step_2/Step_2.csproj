@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RunTimePolymorphism.Order</StartupObject>
+    <StartupObject>NonStaticClass_StaticMember.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -77,9 +77,25 @@
     <Compile Include="StaticvsNonStatic\Instantiate.cs" />
     <Compile Include="StaticvsNonStatic\Members.cs" />
     <Compile Include="StaticvsNonStatic\StaticvsNonstaticClasses.cs" />
+    <Compile Include="Task#2\1.10methods_with_diff_return_types.cs" />
+    <Compile Include="Task#2\10.Diff_Class_Single_Interface.cs" />
+    <Compile Include="Task#2\11.Non_Static_Class_Adding_Static_Members.cs" />
+    <Compile Include="Task#2\12.AbstractClass_Add_AbdtractandNonAbstract_Members.cs" />
+    <Compile Include="Task#2\13.Base_class_virtualmethodsandderivedclass_with_override_methods.cs" />
+    <Compile Include="Task#2\14.Method_Overloading.cs" />
+    <Compile Include="Task#2\15.Method Overriding.cs" />
+    <Compile Include="Task#2\2.10methods_same_return_type_diff_parameters.cs" />
+    <Compile Include="Task#2\3.Diff_Return_type_Diff_parameters.cs" />
+    <Compile Include="Task#2\4.Single_Namespace_Diff_Classes.cs" />
+    <Compile Include="Task#2\5.Diff_Namespaces_Single_Class.cs" />
+    <Compile Include="Task#2\6.Diff_Namespaces_Diff_Classes.cs" />
+    <Compile Include="Task#2\7.Inheritance.cs" />
+    <Compile Include="Task#2\8.Interface_Implementation_byClass.cs" />
+    <Compile Include="Task#2\9.Single_Class_Diff_Interfaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
