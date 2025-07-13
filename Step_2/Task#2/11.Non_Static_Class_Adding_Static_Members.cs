@@ -22,7 +22,7 @@ namespace NonStaticClass_StaticMember
         {
             Name = name;
             PrimarySkill = skill;
-            TotalDevelopers++;                 
+            TotalDevelopers++;
         }
 
         public void ShowProfile()
@@ -37,7 +37,7 @@ namespace NonStaticClass_StaticMember
         }
     }
 
-   
+
     class Program
     {
         static void Main()
